@@ -1,0 +1,298 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tejas-Portfolio</title>
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://unpkg.com/typed.js@2.0.15/dist/typed.umd.js"></script>
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+        <nav class="navbar">
+            <a href="#home" class="active"> Home</a>
+            <a href="#about"class="active"> About</a>
+            <a href="#skills"class="active"> Skill</a>
+            <a href="#projects"class="active"> Projects</a>
+            <a href="#contact"class="active"> Contact</a>
+        </nav>
+    </header>
+    <main>
+        <section class="home" id="home">
+                <div class="home-abt">
+                    <h3>Hello,It's Me</h3>
+                    <h1>Tejas M</h1>
+                    <h3>And I'm a <span class="text"></span></h3>
+                    <p>Frontend developer with a strong focus on creating intuitive and visually consistent web applications. I combine design and functionality to deliver high-quality user experiences
+                        .I combine design and functionality to deliver high-quality user experiences.</p>
+                    <div class="social">
+                        <a href="https://github.com/Tejas-Mahesh" target="blank" class="fa fa-github"></a>
+                        <a href="https://wa.me/918073484727" target="blank" class="fa fa-whatsapp"></a>
+                        <a href="https://www.linkedin.com/in/tejas-m-2351a43b9/" target="blank" class="fa fa-linkedin" ></a>
+                    </div>
+                </div>
+                <div class="my-pic">
+                    <div class="back-colr">
+                        <img src="{% static 'images/tejas.jpeg' %}">
+                    </div>
+                </div>
+        </section>
+        <section class="about" id="about">
+            <div class="about-container">
+                <h2>About <span>Me</span></h2>
+                <h4>TEJAS M</h4>
+
+                <ul>
+                    <li>
+                        Hi, I'm a passionate web developer currently pursuing BCA. 
+                        I enjoy building clean and responsive websites using HTML, CSS, and JavaScript.
+                    </li>
+
+                    <li>
+                        I have worked on projects like a weather app and a digital clock, 
+                        which helped me improve my frontend development skills.
+                    </li>
+
+                    <li>
+                        I am a quick learner and always eager to explore new technologies. 
+                        My goal is to become a full stack developer.
+                    </li>
+                </ul>
+
+            <p class="last-line">Let's connect and build something amazing!</p>
+            </div>
+        </section>
+        <section class="skills" id="skills">
+            <h2 class="section-title">My <span>Skills</span></h2>
+
+            <div class="skills-container">
+
+            <!-- Technical Skills -->
+            <div class="skill-card">
+                <h3>💻 Technical Skills</h3>
+
+                <div class="skill">
+                    <span>HTML</span>
+                    <div class="progress">
+                    <div class="progress-bar html"></div>
+                </div>
+            </div>
+
+            <div class="skill">
+                <span>CSS</span>
+                <div class="progress">
+                    <div class="progress-bar css"></div>
+                </div>
+            </div>
+
+            <div class="skill">
+                <span>JavaScript</span>
+                <div class="progress">
+                    <div class="progress-bar js"></div>
+                </div>
+            </div>
+
+            <div class="skill">
+                <span>C / C++</span>
+                <div class="progress">
+                    <div class="progress-bar c"></div>
+                </div>
+            </div>
+
+            <div class="skill">
+                <span>Java</span>
+                <div class="progress">
+                    <div class="progress-bar java"></div>
+                </div>
+            </div>
+
+            <div class="skill">
+                <span>Python</span>
+                <div class="progress">
+                    <div class="progress-bar python"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <span>Django</span>
+                <div class="progress">
+                    <div class="progress-bar django"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <span>SQL</span>
+                <div class="progress">
+                    <div class="progress-bar sql"></div>
+                </div>
+            </div>
+
+            <div class="skill">
+                <span>MongoDB</span>
+                <div class="progress">
+                    <div class="progress-bar mongo"></div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Soft Skills -->
+         <!-- Soft Skills -->
+<div class="skill-card">
+    <h3>🧠 Soft Skills</h3>
+
+    <div class="soft-skills">
+
+        <div class="soft-box">Communication</div>
+
+        <div class="soft-box">Problem Solving</div>
+
+        <div class="soft-box">Team Work</div>
+
+        <div class="soft-box">Leadership</div>
+
+        <div class="soft-box">Quick Learner</div>
+
+        <div class="soft-box">Adaptability</div>
+
+        <div class="soft-box">Time Management</div>
+
+        <div class="soft-box">Creativity</div>
+
+    </div>
+</div>
+
+        </div>
+    </section>
+    <section class="projects" id="projects">
+        <h2 class="section-title">My <span>Projects</span></h2>
+
+        <div class="project-container">
+
+        <!-- Project 1 -->
+        <div class="project-card">
+            <h3>🌦️ Weather App</h3>
+            <p>Shows real-time weather data like temperature, humidity, and wind speed.</p>
+            <a href="https://tejas-mahesh.github.io/WEATHER_APP/" target="_blank" class="btn">Live Project</a>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="project-card">
+            <h3>💱 Currency Converter</h3>
+            <p>Convert currencies with real-time exchange rates using API.</p>
+            <a href="https://tejas-mahesh.github.io/CURRENCY-CONVERTER-TOOL/" target="_blank" class="btn">Live Project</a>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="project-card">
+            <h3>🛒 Shopping Website</h3>
+            <p>Simple e-commerce UI with product listing and cart system.</p>
+            <a href="https://tejas-mahesh.github.io/MM-Fashion/" target="_blank" class="btn">Live Project</a>
+        </div>
+
+        <!-- Project 4 -->
+        <div class="project-card">
+            <h3>✊✋✌️ Stone Paper Scissor</h3>
+            <p>Interactive game with score tracking and animations.</p>
+            <a href="https://tejas-mahesh.github.io/STONE-PAPER-SCISSOR-Game/" target="_blank" class="btn">Live Project</a>
+        </div>
+
+        <!-- project 5 -->
+         <div class="project-card">
+            <h3>⌨️ TypeRush</h3>
+            <p>Test your speed, accuracy, and typing skills in real time.</p>
+            <a href="https://tejas-mahesh.github.io/TYPE-GAME/" target="_blank" class="btn">Live Project</a>
+        </div>
+
+        <div class="project-card">
+            <h3>💰 SpendWise - Smart Expense Tracker</h3>
+            <p>Track your daily expenses and manage your budget efficiently.</p>
+            <a href="https://tejas-mahesh.github.io/EXPENSE-TRACKER/" target="_blank" class="btn">Live Project</a>
+        </div>
+
+        
+
+    </div>
+</section>
+<section class="contact" id="contact">
+    <div class="contact-container">
+
+        <h2>Contact <span>Me</span></h2>
+
+        <form id="contactForm" class="contact-form" method="POST" action="/contact/">
+            {% csrf_token %}
+            <div class="input-box">
+                <input type="text" name="name" placeholder="Enter your name">
+                <small class="error"></small>
+            </div>
+
+            <div class="input-box">
+                <input type="email" name="email" placeholder="Enter your email">
+                <small class="error"></small>
+            </div>
+
+            <div class="input-box">
+                <textarea name="message" rows="5" placeholder="Enter your message"></textarea>
+                <small class="error"></small>
+            </div>
+
+            <button type="submit" class="btn">Send Message</button>
+
+        </form>
+
+    </div>
+</section>
+
+
+</main>
+<footer class="footer">
+    <div class="footer-container">
+
+        <!-- BRAND -->
+        <div class="footer-box">
+            <h3>Tejas M</h3>
+            <p>Frontend Developer building responsive and modern web experiences.</p>
+        </div>
+
+        <!-- QUICK LINKS -->
+        <div class="footer-box">
+            <h4>Quick Links</h4>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+
+        <!-- CONTACT INFO -->
+        <div class="footer-box">
+            <h4>Contact</h4>
+            <p>Email: tejasmaheshdl@email.com</p>
+            <p>Phone: +91 80734 84727</p>
+        </div>
+
+        <!-- SOCIAL LINKS -->
+        <div class="footer-box">
+            <h4>Follow Me</h4>
+            <div class="social-icons">
+                 <a href="https://github.com/Tejas-Mahesh" target="blank" class="fa fa-github"></a>
+                 <a href="https://wa.me/918073484727" target="blank" class="fa fa-whatsapp"></a>
+                 <a href="https://www.linkedin.com/in/tejas-m-2351a43b9/" target="blank" class="fa fa-linkedin" ></a>
+                
+            </div>
+        </div>
+
+    </div>
+
+    <!-- BOTTOM -->
+    <div class="footer-bottom">
+        <p>© 2026 Tejas M | All Rights Reserved</p>
+    </div>
+</footer>
+
+<script src="{% static 'script.js' %} "></script>
+</body>
+</html>
