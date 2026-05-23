@@ -69,7 +69,9 @@ TEMPLATES = [
     },
 ]
 
+
 WSGI_APPLICATION = 'gunicorn portfoliot.wsgi:application'
+
 
 
 # Database
